@@ -1,0 +1,38 @@
+body {
+    background-color: #1a1a1a;
+    color: #ff7518;
+    font-family: 'Arial', sans-serif;
+}
+
+h1{
+    color: #ff7518;
+}
+
+header {
+    background-color: #2e2a26;
+    color: #ff7518;
+    text-shadow: 2px 2px #000;
+}
+
+.card {
+    background-color: #2e2a26;
+    color: #ff7518;
+}
+
+.card-title {
+    font-size: 22px;
+}
+
+.card-footer {
+    background-color: transparent;
+}
+
+.btn-outline-dark {
+    border-color: #ff7518;
+    color: #ff7518;
+}
+
+.btn-outline-dark:hover {
+    background-color: #ff7518;
+    color: white;
+}
