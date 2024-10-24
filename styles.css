@@ -1,38 +1,64 @@
 body {
-    background-color: #1a1a1a;
-    color: #ff7518;
+    margin: 0;
     font-family: 'Arial', sans-serif;
-}
-
-h1{
-    color: #ff7518;
+    background-color: #1a1a1a;
 }
 
 header {
     background-color: #2e2a26;
     color: #ff7518;
+    position: relative;
+}
+
+header h1 {
+    color: #ff7518;
+    font-size: 48px;
+    margin: 0;
     text-shadow: 2px 2px #000;
 }
 
-.card {
-    background-color: #2e2a26;
+
+header::before {
+    content: '';
+    background: url('https://cdn.pixabay.com/photo/2016/10/24/17/02/halloween-1768857_960_720.png') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.navbar-nav .nav-link {
     color: #ff7518;
+    font-size: 20px;
 }
 
-.card-title {
-    font-size: 22px;
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
 }
 
-.card-footer {
-    background-color: transparent;
+.form-control {
+    border-color: #ff7518;
 }
 
-.btn-outline-dark {
+.btn-outline-light {
     border-color: #ff7518;
     color: #ff7518;
 }
 
-.btn-outline-dark:hover {
+.btn-outline-light:hover {
     background-color: #ff7518;
     color: white;
+}
+
+.btn-outline-light .bi-cart3 {
+    font-size: 24px;
+}
+
+.position-relative .badge {
+    font-size: 12px;
+    padding: 5px 10px;
 }
